@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Unit Converter</title>
+    <link href="main.css" rel="stylesheet" type="text/css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css">
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="box">
+
+        <h1 class="title">Unit converter</h1>
+
+        <input type="unit" class="resultBox resultBox-left" name="funit">
+        <h1 id="equals">=</h1>
+        <input type="unit" class="resultBox resultBox-right" name="sunit"><br>
+
+        <select class="unitSelection unitSelection-left" name="unitSelection">
+          <option value="Pounds">Pounds(lbs)</option>
+          <option value="Kilograms">Kilograms(kg)</option>
+          <option value="Grams">Grams(g)</option>
+        </select>
+
+        <button onclick="convert()">convert!</button>
+
+        <select class="unitSelection unitSelection-right" name="unitSelection">
+          <option value="Pounds">Pounds(lbs)</option>
+          <option value="Kilograms">Kilograms(kg)</option>
+          <option value="Grams">Grams(g)</option>
+        </select>
+
+      </div><br><br>
+
+      <a id="backButton" href="../site.html">Go Back</a>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.js"
+    integrity="sha512-rBvJrSgappbpVQiWJabYgWL32JOqZbhh4cxtj3iWEKx7yVS/h6c2r4q4pwp5AIcF5yvCQzbo+GPwelUjfxaG7Q=="
+    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,47 @@
+
+
+/*HEADER*/
+
+.brand{
+  color: white !important;
+  font-size: 20px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+header{
+  background-color: black;
+  height: 150px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/*BODY*/
+a#loginHere, a#registerHere{
+  color: black;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  left: -160px;
+  position: absolute;
+}
+
+a#registerHere{
+  top: 520px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+form.info{
+  display: block;
+  left: -200px;
+  position: absolute;
+}
+
+form.regInfo{
+  top: 580px;
+}

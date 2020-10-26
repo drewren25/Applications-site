@@ -1,0 +1,42 @@
+
+
+/*HEADER*/
+p#results{
+  /*background-color: #FFC72C;*/
+  background-color: black;
+  color: white;
+  font-size: 80px;
+  height: 100px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+
+
+/*BODY*/
+a.btn-default{
+  font-size: 30px;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  width: 100px;
+}
+
+a.btn-AC, a.btn-equals{
+  width: 200px;
+}
+
+a#backButton{
+  color: black;
+  font-weight: bold;
+}
+
+/*body{
+  background-color: #1D428A !important;
+}*/
+
+div.numberPad{
+  margin-top: 10px;
+  margin-left: 20%;
+  position: relative;
+}

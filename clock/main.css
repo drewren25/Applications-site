@@ -1,0 +1,27 @@
+
+/*HEADER*/
+p#time{
+  background-color: black;
+  color: white;
+  font-size: 50px;
+  height: 100px;
+  text-align: center;
+}
+
+/*BODY*/
+a#backButton{
+  color: black;
+  font-weight: bold;
+}
+
+div.selection{
+  text-align: center;
+}
+
+label#choose{
+  font-size: 20px;
+}
+
+select#timeZones{
+  font-size: 20px;
+}

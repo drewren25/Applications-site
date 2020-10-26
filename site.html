@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>MySite</title>
+    <link href="main.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css">
+
+  </head>
+
+  <body>
+    <header>
+      <nav>
+
+        <a class="brand" href="calc/calc.html">Calculator</a>
+        <a class="brand" href="clock/clock.html">Clock</a>
+        <a class="brand logo" href="site.html">Home</a>
+        <a class="brand" href="unitConverter/unit.html">Units</a> <!--Snake game? No do something simpler first-->
+        <a class="brand" href="site.html">Random</a> <!--Something else-->
+
+      </nav>
+    </header><br>
+
+    <div class="container">
+
+      <!--<p class="thing">Animate</p>-->
+    <span>
+      <a href="#login" id="loginHere" onclick="revealLogin()">LOGIN</a><br><br><br>
+
+      <form class="info loginInfo"> <!--action="http://localhost/thing.php" method=get>-->
+
+          <label for="exampleInputName1">First name:</label>
+          <input type="first name" class="form-control" id="fname" placeholder="Naruto" name="fname"><br>
+
+          <label for="exampleInputName1">Last name:</label>
+          <input type="last name" class="form-control" id="lname" placeholder="Uzumaki" name="lname"><br>
+
+          <label for="exampleInputPassword1">Password:</label>
+          <input type="password" class="form-control" id="password" placeholder="Password" name="password"><br>
+
+          <a class="btn btn-default" onclick="login()">Submit</a>
+          <a href="#register" id="orRegisterHere" onclick="revealRegister()">Or register here</a><br><br><br>
+
+      </form>
+    </span>
+
+    <span>
+      <a href="#registerHere" id="registerHere" onclick="revealRegister()">REGISTER</a><br><br><br>
+
+      <form class="info regInfo"> <!--action="http://localhost/thing.php" method=get>-->
+
+          <label for="exampleInputName1">First name:</label>
+          <input type="first name" class="form-control" id="regfname" placeholder="Naruto" name="fname"><br>
+
+          <label for="exampleInputName1">Last name:</label>
+          <input type="last name" class="form-control" id="reglname" placeholder="Uzumaki" name="lname"><br>
+
+          <label for="exampleInputEmail1">Email address:</label>
+          <input type="email" class="form-control" id="regemail" placeholder="dattebayo@gmail.com" name="email"><br>
+
+          <label for="exampleInputPassword1">Password:</label>
+          <input type="password" class="form-control" id="regpassword" placeholder="Password" name="password"><br>
+
+          <a class="btn btn-default" onclick="register()">Submit</a><br><br><br><br>
+
+      </form>
+    </span>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.js" integrity="sha512-rBvJrSgappbpVQiWJabYgWL32JOqZbhh4cxtj3iWEKx7yVS/h6c2r4q4pwp5AIcF5yvCQzbo+GPwelUjfxaG7Q==" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+
+  <footer></footer>
+
+</html>

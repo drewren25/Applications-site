@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <title>clock</title>
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <script src="script.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css">
+
+ </head>
+
+
+  <body onload="startTime()">
+
+    <header>
+
+      <p id="time"></p>
+
+    </header>
+
+    <div class="container">
+      <div class="selection">
+        <label id= "choose" for="timeZones">Choose a time zone(US):</label><br>
+        <select id="timeZones" name="timeZones">
+          <option value="Hawaii">Hawaii</option>
+          <option value="Alaska">Alaska</option>
+          <option value="Pacific">Pacific</option>
+          <option value="Mountain">Mountain</option>
+          <option value="Central">Central</option>
+          <option value="Eastern">Eastern</option>
+        </select><br><br>
+      </div>
+
+      <a id="backButton" href="../site.html">Go Back</a>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </body>
+
+
+  <footer></footer>
+
+</html>
